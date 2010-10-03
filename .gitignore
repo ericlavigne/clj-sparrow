@@ -1,0 +1,9 @@
+pom.xml
+*jar
+lib
+classes
+*~
+*.fdb
+*MACOSX
+*DS_Store
+*.war
