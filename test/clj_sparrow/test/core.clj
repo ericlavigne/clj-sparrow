@@ -2,5 +2,6 @@
   (:use [clj-sparrow.core] :reload)
   (:use [clojure.test]))
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest arithmetic-test
+  (is (= (+ 1 1) 2)
+      "1 + 1 = 2"))
